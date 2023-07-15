@@ -1,0 +1,28 @@
+body {
+    font-family: 'Tektur', cursive;
+    background: url("images/bg.png");
+    margin: 0;
+}
+
+.gridDiv:hover {
+    cursor: pointer;
+}
+
+label:after { 
+    content: ":";
+}
+
+button, select {
+    font-size: 15px;
+    padding: 7px;
+    margin: 10px 40px;
+}
+
+select {
+    margin-left: 0;
+
+}
+
+button:hover {
+    cursor: pointer;
+}
